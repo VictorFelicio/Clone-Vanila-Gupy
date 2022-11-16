@@ -1,0 +1,174 @@
+@media screen and (min-width:1px) and (max-width:766px){
+    main{
+        flex: 1 1;
+        padding: 24px 16px;
+        min-height: 500px;
+        background-color: #f9f9f9;
+        transition: margin-top .3s ease-in-out;
+    }
+    .main-header h1{
+        font-size: 2.4rem;
+    }
+    .main-header p{
+        font-size: 1.4rem;
+    }
+    .box-vacancies{
+        display: none;
+    }    
+    .pad1{
+        display: flex;
+        flex-direction: column;
+        min-height: 320px;
+        height: 100%;    
+        flex-basis:100%;
+        max-width:100%;
+        padding:0 16px 0 10.5px;
+        margin-bottom: 16px;
+    }
+    .pad2{
+        display: flex;
+        flex-direction: column;
+        min-height: 320px;
+        height: 100%;      
+        flex-basis:100%;
+        max-width:100%;
+        padding:0 16px 0 10.5px;
+        margin-bottom: 16px;
+    }
+    .see-btn{
+        font-size: 1.3rem;
+    }
+    section .card{
+        display: flex;
+        flex-direction: column;
+        min-height: 320px;
+        height: 100%;
+        width: 100%;       
+        border-radius: 4px;
+        box-shadow: 1px 1px 4px #0000001f;        
+    }
+    .box-vacancies-card{
+        display: flex;
+        flex-direction: column;
+        color: #13335f;
+        font-size: 1.6rem;           
+    }
+    #card-click{
+        height: 100vh;
+        width: 100vw;
+        top:0;
+        left: 25px;  
+    }
+    #header-card-click{
+        display: flex;
+    }
+    .box-btn-header{
+        display: flex;
+        cursor: pointer;        
+    }
+    .box-btn-header span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: #fff;
+        border-radius: 50%;
+        margin-right: 16px;
+        background-color: rgb(87, 139, 222);        
+    }
+    .box-vacancies-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-vacancies-card p{
+        color: rgb(19, 51, 95);   
+        font-size: 1.6rem;   
+        padding: 4px 12px;
+        cursor: pointer;
+        height: 40px;
+        border-radius: 4px;
+    }
+    .box-vacancies-card p:hover {
+        background-color: rgb(214, 243, 249);
+    }
+    .body-card-btn{
+        margin-bottom:10px;
+    }
+    .body-card-click{
+        height: 270px;
+    }
+    
+} 
+@media screen and (min-width:767px) and (max-width:1199px){
+   
+    .main-header h1{
+        font-size: 3.2rem;
+        line-height: 26px;
+    }
+    .main-header p{
+        font-size: 1.6rem;
+    }
+    .pad1{
+        display: flex;
+        flex-direction: column;
+        min-height: 320px;
+        height: 100%;    
+        flex-basis:50%;
+        max-width:50%;
+        padding:0 16px 0 10.5px;
+        margin-bottom: 16px;      
+    }
+    .pad2{
+        display: flex;
+        flex-direction: column;
+        min-height: 320px;
+        height: 100%;      
+        flex-basis:50%;
+        max-width:50%;
+        padding:0 16px;
+        margin-bottom: 16px;
+    }
+    section .card{
+        display: flex;
+        flex-direction: column;
+        min-height: 320px;
+        height: 100%;
+        width: 100%;       
+        border-radius: 4px;
+        box-shadow: 1px 1px 4px #0000001f;        
+    }
+}
+@media screen and (min-width:1200px){
+    .pad1{
+        display: flex;
+        flex-direction: column;
+        min-height: 352px;
+        height: 100%;    
+        flex-basis:33.333%;
+        max-width:33.333%;
+        padding:0 16px 0 10.5px;
+        margin-bottom: 16px;       
+    }
+    .pad2{
+        display: flex;
+        flex-direction: column;
+        min-height: 362px;
+        height: 100%;      
+        flex-basis:33.333%;
+        max-width:33.333%;
+        padding:0 16px;
+        margin-bottom: 16px;       
+    }
+    section .card{
+        display: flex;
+        flex-direction: column;
+        min-height: 352px;
+        height: 100%;
+        width: 100%;       
+        border-radius: 4px;
+        box-shadow: 1px 1px 4px #0000001f;        
+    }     
+} 
